@@ -3,16 +3,48 @@
 <html lang="en">
 
 <head>
-  <title>Menu Service Component</title>
+  <title>Guilt Trip Advisor Proxy Server</title>
   <link href="https://fonts.googleapis.com/css?family=DM+Sans|Open+Sans|Questrial&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
   <div>
-    <div id="app"></div>
-  </div>
-  <script type="text/javascript" src="./bundle.js"></script>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-</body>
 
+
+    <div>
+      <img
+        className="dummyPhoto"
+        src="./resources/1.png"
+        alt="1"
+        width="100%"
+      />
+    </div>
+    <div id="image-gallery">Loading Image Gallery... </div>
+    <div>
+      <img
+        className="dummyPhoto"
+        src="./resources/2.png"
+        alt="2"
+        width="100%"
+      />
+    </div>
+    <div 
+      id="menu"
+    >Loading Menus... </div>
+    <div>
+      <img
+        className="dummyPhoto"
+        src="./resources/3.png"
+        alt="3"
+        width="100%"
+      />
+    </div>
+    <div id="q-a">Loading Q-A... </div>
+  </div>
+  
+</body>
+  <script type="text/javascript" src="http://localhost:3002/api/bundle"></script>
+  <script type="text/javascript" src="http://localhost:3004/api/bundle.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </html>
