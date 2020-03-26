@@ -2,6 +2,11 @@ body {
     background-color: #f2f2f2;
 }
 
+.bodyContainer {
+    max-width: 1000px;
+    margin: auto;
+}
+
 .dummyPhoto {
     width: max-content;
     height: auto;
@@ -12,3 +17,9 @@ body {
     width: max-content;
     height: 250px;
 }
+
+#menu {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
